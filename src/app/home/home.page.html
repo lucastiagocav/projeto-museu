@@ -1,14 +1,14 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+  <ion-content>
+  <div class="background">
+    <h2 class="nome-museu">
+        {{nomeMuseu}}
+    </h2>
+    <img  class="icone-museu" src="../../assets/img/icon-museu.png" alt="Museu">
+    <div class="alinhar-botao">
+      <ion-button shape="round" color="dark" expand="block" routerLink="/visitar">VISITAR</ion-button>      
+      <ion-button shape="round" color="dark" expand="block" routerLink="/login">ENTRAR USANDO CONTA</ion-button>
+      <ion-button shape="round" color="light" fill="outline" routerLink="/cadastrar" expand="block">CADASTRAR</ion-button>
+   </div>
   </div>
 </ion-content>

@@ -1,1 +1,25 @@
-
+.alinhar-botao {
+    width: 85%;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+.icone-museu{
+    width: 7em;
+    display: block;
+    padding-top: 1em;
+    margin: 0 auto;
+    color: white;
+}
+.nome-museu{
+    padding-top: 10em;
+    text-shadow: 2px 1px black;
+    text-align: center;
+    color: aliceblue;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.background{
+    background-image: url('../../assets/img/background.jpg') !important;
+    height: 100%;
+}
