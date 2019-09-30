@@ -9,6 +9,7 @@ const routes: Routes = [
   { path: 'visitar', loadChildren: './visitar/visitar.module#VisitarPageModule' },
   { path: 'home', loadChildren: './inicio/inicio.module#InicioPageModule' },
   { path: 'tela-final', loadChildren: './tela-final/tela-final.module#TelaFinalPageModule' },
+  { path: 'obra', loadChildren: './obra/obra.module#ObraPageModule' },
 ];
 
 @NgModule({
