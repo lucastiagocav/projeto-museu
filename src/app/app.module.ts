@@ -23,3 +23,4 @@ import { IBeacon } from '@ionic-native/ibeacon/ngx';
   bootstrap: [AppComponent]
 })
 export class AppModule {}
+
