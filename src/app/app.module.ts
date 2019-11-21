@@ -24,3 +24,5 @@ import { IBeacon } from '@ionic-native/ibeacon/ngx';
 })
 export class AppModule {}
 
+
+
